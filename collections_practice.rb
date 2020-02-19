@@ -17,3 +17,6 @@ def swap_elements(array)
   array
 end
 
+def sort_array_desc(array)
+  array.reverse
+end
