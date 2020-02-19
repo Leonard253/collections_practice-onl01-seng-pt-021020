@@ -24,8 +24,9 @@ end
 def kesha_maker(array)
   array.each do |item|
     item[3] = "$"
-    return_array
+    return_array << item
   end
+  return
 end
 
 def find_a(array)
