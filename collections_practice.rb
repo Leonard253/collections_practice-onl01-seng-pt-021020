@@ -21,13 +21,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.each do |item|
-    item[2] = "$"
-    return_array << item
-  end
-  return_array
-end
+
 
 def find_a(array)
    array.find_all do |word|
